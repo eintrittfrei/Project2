@@ -1,0 +1,89 @@
+body {
+  background-image: url("./assets/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.display-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 180px;
+  margin-left: 300px;
+}
+
+.main {
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 900px;
+  height: 180px;
+}
+
+#root > section > div > div > div > p.title.is-1.has-text-text-centered {
+  width: 900px;
+}
+
+.title {
+  color: #FFF;
+}
+
+.title.is-1 {
+  font-size: 2rem;
+}
+
+form {
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+input.input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+input.input:hover {
+  background: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+input.input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: rgba(0, 0, 0, 0);
+}
+
+.toggle, .reset {
+  font-size: medium;
+}
+
+.extra-information-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.extra-information {
+  margin-left: 30px;
+}
+
+.extra-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 400px;
+  font-size: x-large;
+}
+/*# sourceMappingURL=main.css.map */
