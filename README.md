@@ -38,6 +38,9 @@ Build a React application that consumes a public API.
 
 ## Weather App
 
+![Screenshot 2021-08-16 at 14 47 18](https://user-images.githubusercontent.com/16645758/129566192-3e04bd2f-2a53-42f5-8747-4bb9bdef3a50.png)
+
+
 ## Deployed version
 https://oleproject2.netlify.app/
 
