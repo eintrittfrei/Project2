@@ -25,7 +25,7 @@ Build a React application that consumes a public API.
 ​
 ## Technologies Used
 
-*React
+* React
 * React Router
 * JavaScript (ES6)
 * HTML5
@@ -55,14 +55,43 @@ First we set up a basic react application. We decided to make the API request fi
 
 First we used useEffect() and async/ await to make our request and set the weather data to state. We could see our weather data in the console.log through Chrome developer tools
 
-Screen SHOT
+```javascript
+useEffect(() => {
+    const getData = async () => {
+      try {
+        const { data } = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=bc3268a2d36f4676922230553211606&q=${formSubmit}&days=1&aqi=yes&alerts=no`)
+        setWeather(data)
+      } catch (err) {
+        console.log(err)
+      }
+    }
+    getData()
+  }, [formSubmit])
+
+```
 
 We now needed to create a basic form for the user to enter location information. We set the form information to state and passed this into the request url for the API request as a template literal. Now the weather information would be based on the user's location input. 
 
-SCreen Shot. 
+```javascript
+const Home = () => {
+  const [formData, setFormData] = useState({
+    location: '',
+  })
+  const [formSubmit, setFormSubmit] = useState('')
+  const [weather, setWeather] = useState('')
 
+  const handleChange = (event) => {
+    console.log(event.target.value)
+    const newFormData = { ...formData, [event.target.name]: event.target.value }
+    setFormData(newFormData)
+  }
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    setFormSubmit(formData.location)
+  }
+
+```
 In the next step we build out the weather information on the display page using the Bulma CSS framework. 
-
  
 ## Challenges
 Getting data back from the API was challenging. We needed to pass in the location information and also our authentication key for the API which took some time to work out how to do this. 
