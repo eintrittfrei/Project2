@@ -47,16 +47,16 @@ https://oleproject2.netlify.app/
 ## Installation
 Clone or download the repo. In your terminal run the following commands: 
 
-Install dependencies with yarn add 
-Run yarn start in the terminal 
+Install dependencies with 'yarn add' 
+Run 'yarn start' in the terminal 
 
 ## Planning
-This was a 48h hackathon challenge and we decided to create a basic weather app based on location information typed in by the user. We started by researching suitable public APIs and chose weatherapi.com because it is free to use and offers a large choice of weather information. We planned some basic wireframes for our project and started to write some pseudocode also. We decided that one of us would be coding while we both were discussing what to do next based on our plan. 
+This was a 48h hackathon challenge and we decided to create a basic weather app based on location information typed in by the user. We started by researching suitable public APIs and chose weatherapi.com because it is free to use and offers a large choice of weather information. We planned some basic wireframes for our project and started to write some pseudocode. We decided that one of us would be coding while we both were discussing what to do next based on our plan. 
 
 ## Process
-First we set up a basic react application. We decided to make the API request first as this would likely take some time to work out because we had never done this before. We used the documentation from weatherapp.com on how to make basic requests.  
+First we set up a basic react application. We decided to make the API request first as this would likely take some time doing this for the first time. We used the documentation from weatherapp.com on how to make basic requests.  
 
-First we used useEffect() and async/ await to make our request and set the weather data to state. We could see our weather data in the console.log through Chrome developer tools
+First we used useEffect() and async/ await to make our request and set the weather data to state. We could see our weather data in the console.log using Chrome developer tools.
 
 ```javascript
 useEffect(() => {
