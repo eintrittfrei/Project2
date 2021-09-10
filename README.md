@@ -15,7 +15,6 @@ Emilie Sherrott https://github.com/emilesherrott
 Build a React application that consumes a public API.
 ​
 ### Technical Requirements
-​
 * The app must consume a public API
 * Have several components
 * The app can have a router - with several "pages"
