@@ -15,12 +15,12 @@ Emilie Sherrott https://github.com/emilesherrott
 Build a React application that consumes a public API.
 ​
 ### Technical Requirements
-* The app must consume a public API
-* Have several components
-* The app can have a router - with several "pages"
+* The app must consume a public API.
+* Have several components.
+* The app can have a router - with several "pages".
 * Include wireframes - that you designed before building the app.
-* Be deployed online and accessible to the public
-* You should use pair coding techniques 
+* Be deployed online and accessible to the public.
+* You should use pair coding techniques.
 ​
 ## Technologies Used
 
@@ -93,7 +93,7 @@ const Home = () => {
   }
 
 ```
-In the next step we build out the weather information on the display page using the Bulma CSS framework. 
+In the next step we built out the weather information on the display page using the Bulma CSS framework. 
  
 ## Challenges
 Getting data back from the API was challenging. We needed to pass in the location information and also our authentication key for the API which took some time to work out how to do this. 
@@ -106,8 +106,7 @@ How to use a CSS framework
 Pair coding was definitely a new experience and we learned a lot about how to pair code effectively. 
 
 ## Bugs
-Some of the layout is a bit off and needs fixing 
-It is not mobile responsive 
+Some of the layout is a bit off and needs fixing as it is not yet mobile responsive. 
 
 ## Future Improvements 
 
