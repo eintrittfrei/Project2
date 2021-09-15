@@ -8,7 +8,7 @@ Ole Nascimento https://github.com/eintrittfrei
 Emilie Sherrott https://github.com/emilesherrott
 
 ## Timeframe
-48hours 
+48 hours 
 
 ## Project Brief:  
 
@@ -101,17 +101,18 @@ Using Bulma as a CSS framework also presented a challenge as we had not used thi
 Reading documentation has helped to understand how to use both technologies. 
 
 ## Wins & Key Learning 
-How to make requests to a public API and display those on a user page. 
-How to use a CSS framework 
-Pair coding was definitely a new experience and we learned a lot about how to pair code effectively. 
+* How to make requests to a public API and display those on a user page. 
+* How to use a CSS framework. 
+* Pair coding was definitely a new experience and we learned a lot about how to pair code effectively. 
 
 ## Bugs
-Some of the layout is a bit off and needs fixing as it is not yet mobile responsive. 
+
+* Some of the layout is a bit off and needs fixing as it is not yet mobile responsive. 
 
 ## Future Improvements 
 
-Showing extra information toggle on/ off 
-Automated display of local weather based on user location information
+* Showing extra information toggle on/ off. 
+* Automated display of local weather based on user location information.
 
 
 
