@@ -41,8 +41,8 @@ Build a React application that consumes a public API.
 
 
 ## Deployed version
-https://oleproject2.netlify.app/
 
+<a href="https://oleproject2.netlify.app/" target="_blank">Deployed Version</a>
 ## Installation
 Clone or download the repo. In your terminal run the following commands: 
 
