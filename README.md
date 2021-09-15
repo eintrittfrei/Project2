@@ -43,6 +43,7 @@ Build a React application that consumes a public API.
 ## Deployed version
 
 <a href="https://oleproject2.netlify.app/" target="_blank">Deployed Version</a>
+
 ## Installation
 Clone or download the repo. In your terminal run the following commands: 
 
@@ -107,7 +108,7 @@ Reading documentation has helped to understand how to use both technologies.
 
 ## Bugs
 
-* Some of the layout is a bit off and needs fixing as it is not yet mobile responsive. 
+* The layout is slightly off. When displaying full weather inormation on a smaller screen the text goes beyhond the page boundaries. 
 
 ## Future Improvements 
 
